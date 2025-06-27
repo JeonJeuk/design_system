@@ -20,6 +20,13 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  viteFinal: async (config) => {
+    // GitHub Pages 배포를 위한 base path 설정
+    if (process.env.NODE_ENV === 'production') {
+      config.base = '/design_system/';
+    }
+    return config;
+  },
 };
 
 export default config; 

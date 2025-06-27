@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsup",
-    "build:storybook": "storybook build",
+    "build:storybook": "NODE_ENV=production storybook build",
     "storybook": "storybook dev -p 6006",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
