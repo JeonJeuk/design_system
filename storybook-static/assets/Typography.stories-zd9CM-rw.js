@@ -1,4 +1,4 @@
-import{j as r}from"./jsx-runtime-D_zvdyIk.js";import"./iframe-BzTJmm95.js";import{t as e,c as d,d as c}from"./typography-BcZ1IE9A.js";const m=c.span`
+import{j as r}from"./jsx-runtime-D_zvdyIk.js";import"./iframe-D2EwB3KJ.js";import{t as e,c as d,d as c}from"./typography-CrTGrKdY.js";const m=c.span`
   font-family: ${e.fontFamily.sans.join(", ")};
   font-weight: ${({weight:o="normal"})=>e.fontWeight[o]};
   text-align: ${({align:o="left"})=>o};

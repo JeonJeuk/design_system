@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { fn } from '@storybook/test';
 import { Button } from './Button';
 
 const meta = {
@@ -34,7 +33,7 @@ const meta = {
       description: '전체 너비 사용 여부',
     },
   },
-  args: { onClick: fn() },
+  args: { onClick: () => console.log('Button clicked') },
 } satisfies Meta<typeof Button>;
 
 export default meta;
