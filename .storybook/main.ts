@@ -17,6 +17,9 @@ const config: StorybookConfig = {
       propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
     },
   },
+  docs: {
+    autodocs: 'tag',
+  },
 };
 
 export default config; 
